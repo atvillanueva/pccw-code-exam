@@ -12,7 +12,7 @@ a = 2;
 console.log(b);
 ```
 
-What is the value of b.name?
+2. What is the value of b.name?
 
 ```javascript
 let a = { name: "John Doe" };
@@ -24,7 +24,7 @@ a.name = "Johnny English";
 console.log(b.name)
 ```
 
-What is the value of state?
+3. What is the value of state?
 
 ```javascript
 function useState (initialValue) {
@@ -45,7 +45,7 @@ setState(10);
 console.log(state)
 ```
 
-If the button clicked 3 times, what will be the final value of state?
+4. If the button clicked 3 times, what will be the final value of state?
 
 ```javascript   
 import { useCallback, useState } from "react";
@@ -66,7 +66,7 @@ const Component = () => {
 };
 ```
 
-What is the final value of count?
+5. What is the final value of count?
 
 ```javascript   
 import { useCallback, useEffect, useState } from "react";
@@ -92,7 +92,7 @@ const Component = () => {
 };
 ```
 
-What is the value of car.getModel()?
+6. What is the value of car.getModel()?
 
 ```javascript
 const car = {
@@ -105,7 +105,7 @@ const car = {
 console.log(car.getModel());
 ```
 
-What is the value of person.getName()?
+7. What is the value of person.getName()?
 
 ```javascript
 const person = {
