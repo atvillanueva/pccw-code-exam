@@ -1,6 +1,6 @@
 ﻿# Front End Code Exam
 
-1) What is the value of b?
+1. What is the value of b?
 
 ```javascript
 let a = 1;
