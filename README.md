@@ -128,3 +128,29 @@ console.log(greetMessage("Hello"));
 
 ```
 
+9. What is the last text will be display in the console?
+
+```javascript
+function f1() {
+	console.log("execute f1")
+}
+
+function f2() {
+	console.log("execute f2")
+}
+
+function f3() {
+	console.log("execute f3")
+}
+
+function f4() {
+	console.log("execute f4")
+}
+
+f1()
+setTimeout(() => f3(), 0)
+setTimeout(() => f2(), 0)
+f4()
+
+```
+
