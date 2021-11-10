@@ -154,3 +154,20 @@ f4()
 
 ```
 
+10. What is the output of console.log?
+
+```javascript
+function displayer(result = 1) {
+  return result
+}
+
+function calculator(num1, num2) {
+  let sum = num1 + num2;
+  return sum;
+}
+
+const result = calculator(5, 5);
+console.log(displayer(result));
+
+```
+
