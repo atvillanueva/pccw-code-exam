@@ -118,3 +118,13 @@ const person = {
 console.log(person.getName());
 ```
 
+8. What is the output of console.log?
+
+```javascript
+const greet = (str1) => (str2) => `${str2 || ""} ${str1 || ""}`;
+const greetMessage = greet("Good Morning");
+
+console.log(greetMessage("Hello"));
+
+```
+
